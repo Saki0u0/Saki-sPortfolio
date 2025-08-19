@@ -14,13 +14,15 @@ type Params = {
 
 
 
-export default function WorkDetailPage({ params }: Params) {
-  const work = works.find((w) => w.slug === params.slug);
+export default async function WorkDetailPage({ params }: Params) {
+  const { slug } = await params;  
+  const work = works.find((w) => w.slug === slug);
+
   const fontItems: FontInfo[] = work?.font
-  ? Array.isArray(work.font)
-    ? work.font
-    : [work.font]
-  : [];
+    ? Array.isArray(work.font)
+      ? work.font
+      : [work.font]
+    : [];
 
   if (!work) return <div>Work not found</div>;
 
