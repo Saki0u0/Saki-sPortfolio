@@ -5,7 +5,7 @@ import Image from "next/image";
 const frontend = [
   { src: "/about/skills/html.svg", alt: "html", title: "HTML" },
   { src: "/about/skills/css.svg", alt: "css", title: "CSS" },
-  { src: "/about/skills/javascript.svg", alt: "javascript", title: "JavaScript" },
+  { src: "/about/skills/Javascript.svg", alt: "javascript", title: "JavaScript" },
   { src: "/about/skills/jquery.svg", alt: "jquery", title: "jQuery" },
   { src: "/about/skills/react.svg", alt: "react", title: "React" },
   { src: "/about/skills/next-js.svg", alt: "nextjs", title: "Next.js" },
