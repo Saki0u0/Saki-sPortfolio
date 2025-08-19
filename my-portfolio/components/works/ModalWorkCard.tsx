@@ -18,7 +18,7 @@ const Modal: React.FC<Props> = ({ isOpen, onClose, work  }) => {
   return (
     <div className="fixed inset-0 bg-black/40 bg-opacity-30 flex items-center justify-center z-50 p-4">
 
-      <div className="bg-white py-6 px-12 rounded-lg w-full lg:max-w-xl md:w-[80%] max-w-[90%] shadow-lg relative overflow-y-scroll lg:h-[75%] h-[80%] items-center">
+      <div className="bg-white md:py-6 md:px-12 py-8 px-6 rounded-lg w-full lg:max-w-xl md:w-[80%] max-w-[90%] shadow-lg relative overflow-y-scroll lg:h-[75%] h-[80%] items-center">
 
         {/* Close Button */}
         <button
