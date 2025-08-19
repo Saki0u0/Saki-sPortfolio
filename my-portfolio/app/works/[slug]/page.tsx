@@ -5,15 +5,20 @@ import Footer from "@/components/ui/footer";
 import Link from "next/link";
 import { FaRegArrowAltCircleLeft } from "react-icons/fa";
 import { IoAirplaneSharp } from "react-icons/io5";
+import { notFound } from "next/navigation";
 
-type WorkDetailPageProps = {
-  params: {
-    slug: string;
-  };
-};
+type RouteParams = { slug: string };
 
-export default  function WorkDetailPage({ params }: WorkDetailPageProps) {
-  const work = works.find((w) => w.slug === params.slug);
+export default async function WorkDetailPage({
+  params,
+}: {
+  params: Promise<RouteParams>;
+}) {
+  const { slug } = await params;
+
+  const work = works.find((w) => w.slug === slug);
+  if (!work) notFound();
+;
 
   const fontItems: FontInfo[] = work?.font
     ? Array.isArray(work.font)
