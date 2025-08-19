@@ -43,7 +43,7 @@ export default function Contact() {
         <form ref={formRef} onSubmit={sendEmail}>
         <div className="md:w-[90%] w-[96%] mx-auto font-sans">
           <div className="flex md:flex-row flex-col w-full mb-6">
-            <div className="md:w-1/2 w-full">
+            <div className="md:w-1/2 w-full md:mb-0 mb-6">
               <p className="mb-1">First Name</p>
               <Input className="bg-white border-gray-300 w-full" placeholder="First Name..."/>
             </div>
