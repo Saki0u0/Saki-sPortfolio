@@ -187,7 +187,6 @@ export default async function WorkDetailPage({
               </div>
             )}
 
-          
           {work.illustrationSection && (
             <section className="mt-4 mb-20 leading-loose">
               <div className="flex items-center">
