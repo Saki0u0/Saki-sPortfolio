@@ -17,7 +17,7 @@ export default function Background() {
       <Header />
       <div className="mt-24 mb-10 md:w-[80%] w-[96%] mx-auto">
         <h2 className="title text-5xl my-10 tracking-widest ">Background</h2>
-        <div className="md:w-[90%] mx-auto font-sans">
+        <div className="md:w-[90%] w-[96%] mx-auto font-sans">
           <div className="flex justify-center gap-6 mb-8 text-2xl items-center">
             <button
               onClick={() => setYear(2020)}

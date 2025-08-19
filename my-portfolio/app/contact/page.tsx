@@ -38,16 +38,16 @@ export default function Contact() {
   return (
     <div className="h-[80vh]">
       <Header/>
-      <div className="mt-30 w-[80%] mx-auto mb-12">
+      <div className="md:mt-30 md:w-[80%]  w-[96%] mx-auto mb-12 mt-20">
         <h2 className="title text-5xl mb-10 tracking-widest"> Contact</h2>
         <form ref={formRef} onSubmit={sendEmail}>
-        <div className="w-[90%] mx-auto font-sans">
-          <div className="flex w-full mb-6">
-            <div className="w-1/2">
+        <div className="md:w-[90%] w-[96%] mx-auto font-sans">
+          <div className="flex md:flex-row flex-col w-full mb-6">
+            <div className="md:w-1/2 w-full">
               <p className="mb-1">First Name</p>
               <Input className="bg-white border-gray-300 w-full" placeholder="First Name..."/>
             </div>
-            <div className="ml-10 w-1/2">
+            <div className="md:ml-10 md:w-1/2 w-full">
               <p className="mb-1">Last Name</p>
               <Input className="bg-white border-gray-300" name="first_name" placeholder="Last Name..."/>
             </div>
