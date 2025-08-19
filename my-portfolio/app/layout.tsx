@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Jaro } from 'next/font/google'
+import "./globals.css"; 
 
 const jaro = Jaro({
   weight: '400',
