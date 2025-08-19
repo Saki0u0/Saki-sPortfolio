@@ -6,17 +6,14 @@ import Link from "next/link";
 import { FaRegArrowAltCircleLeft } from "react-icons/fa";
 import { IoAirplaneSharp } from "react-icons/io5";
 
-type Params = {
+type WorkDetailPageProps = {
   params: {
     slug: string;
   };
 };
 
-
-
-export default async function WorkDetailPage({ params }: Params) {
-  const { slug } = await params;  
-  const work = works.find((w) => w.slug === slug);
+export default  function WorkDetailPage({ params }: WorkDetailPageProps) {
+  const work = works.find((w) => w.slug === params.slug);
 
   const fontItems: FontInfo[] = work?.font
     ? Array.isArray(work.font)
