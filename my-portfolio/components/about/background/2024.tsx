@@ -5,7 +5,7 @@ export default function Section2024() {
   return(
     <div>
       <section className="space-y-6 font-sans">
-      <div className="bg-[#fffafc] shadow-sm p-10 rounded-2xl">
+      <div className="bg-[#fffafc] shadow-sm md:p-10 p-6 rounded-2xl">
         <h2 className="text-xl font-bold mb-2 font-sans">2024.02</h2>
         <h3 className="mb-6 font-sans font-semibold">ANA成田エアポートサービス株式会社　退職</h3>
         <div className="flex flex-col lg:flex-row">
@@ -19,7 +19,7 @@ export default function Section2024() {
         </div>
       </div>
         
-      <div className="bg-[#fffafc] shadow-sm p-10 rounded-2xl">
+      <div className="bg-[#fffafc] shadow-sm md:p-10 p-6 rounded-2xl">
         <h2 className="text-xl font-bold mb-2 font-sans">2024.02</h2>
         <h3 className="mb-6 font-semibold">カナダ・バンクーバーへ留学 / Cornerstorn International Community Collage入学</h3>
         <div className="flex flex-col lg:flex-row-reverse ">
@@ -37,7 +37,7 @@ export default function Section2024() {
         </div>
       </div>
         
-        <div className="bg-[#fffafc] shadow-sm p-10 rounded-2xl">
+        <div className="bg-[#fffafc] shadow-sm md:p-10 p-6 rounded-2xl">
           <h2 className="text-xl font-bold mb-2">2024.04</h2>
           <h3 className="mb-2 font-sans font-semibold">Cornerstorn International Community CollageにてWeb Developmentコース開始
           </h3>

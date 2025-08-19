@@ -5,7 +5,7 @@ export default function Section2020() {
   return(
     <div>
       <section className="space-y-6">
-        <div className="bg-[#fffafc] shadow-sm p-10 rounded-2xl">
+        <div className="bg-[#fffafc] shadow-sm md:p-10 rounded-2xl p-6">
           <h2 className="text-xl font-bold mb-2 font-sans ">2020.03</h2>
           <h3 className="mb-6 font-semibold">日本女子大学（家政学部住居学科居住環境デザイン専攻）卒業</h3>
 
@@ -37,7 +37,7 @@ export default function Section2020() {
           </div>
         </div>
         <div>
-          <div className="bg-[#fffafc] shadow-sm p-10 rounded-2xl">
+          <div className="bg-[#fffafc] shadow-sm md:p-10 p-6 rounded-2xl">
             <h2 className="text-xl font-bold mb-2">2020.06</h2>
             <h3 className="mb-6 font-semibold">ANA成田エアポートサービス株式会社　入社</h3>
             <p className="text-sm leading-loose">

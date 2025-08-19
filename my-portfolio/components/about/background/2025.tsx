@@ -5,7 +5,7 @@ export default function Section2025() {
   return(
     <div>
       <section className="space-y-6 font-sans">
-          <div className="bg-[#fffafc] shadow-sm p-10 rounded-2xl">
+          <div className="bg-[#fffafc] shadow-sm md:p-10 p-6 rounded-2xl">
             <h2 className="text-xl font-bold mb-2">2025.05</h2>
             <h3 className="mb-4 font-semibold">Cornerstorn International Community Collage　卒業</h3>
 
@@ -25,7 +25,7 @@ export default function Section2025() {
             </div>
           </div>
         
-          <div className="bg-[#fffafc] shadow-sm p-10 rounded-2xl">
+          <div className="bg-[#fffafc] shadow-sm md:p-10 p-6 rounded-2xl">
             <h2 className="text-xl font-bold mb-2">2025 現在</h2>
             <h3 className="mb-6 font-semibold">カナダ・バンクーバーにて就労・学習中</h3>
             <p className="text-sm leading-loose">

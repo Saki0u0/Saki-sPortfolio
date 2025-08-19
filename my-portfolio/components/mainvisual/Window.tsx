@@ -162,7 +162,7 @@ export default function Window() {
                 alt=""
                 width={200}
                 height={200}
-                className="absolute  md:bottom-[-14%] md:left-[-18%] md:w-[54%] scale-x-[-1] xl:w-[42%] lg:bottom-[-20%] lg:left-[-10%] cloud1 bottom-[-10%] left-[-40%] w-[90%]"
+                className="absolute  md:bottom-[-16%] md:left-[-18%] md:w-[54%] scale-x-[-1] xl:w-[42%] lg:bottom-[-20%] lg:left-[-10%] cloud1 bottom-[-10%] left-[-40%] w-[90%]"
               />
               {/* 雲：下右 */}
               <Image

@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <div>
       <h2 className="title text-5xl mb-10 tracking-widest font-jaro">About</h2>
-        <div className="flex w-[96%] md:w-[90%] mx-auto flex-col md:flex-row  md:items-center bg-white rounded-2xl md:p-10 py-8 px-4 shadow-sm">
+        <div className="flex w-[96%] md:w-[90%] mx-auto flex-col md:flex-row  md:items-center bg-white rounded-2xl md:p-10 py-8 px-6 shadow-sm">
           <div  className="w-full md:w-[30%]"> 
             <div className="relative w-full flex items-center justify-center">
               <Image 

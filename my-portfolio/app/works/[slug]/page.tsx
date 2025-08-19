@@ -31,7 +31,7 @@ export default async function WorkDetailPage({
   return (
     <div>
       <Header/>
-      <div className="p-8 md:w-[80%] w-[96%] mx-auto my-20">
+      <div className="p-8 md:w-[80%] w-[98%] mx-auto my-20">
         <Link href="/works" className="flex text-[#FB9AA3]">
         <FaRegArrowAltCircleLeft size={24} className="text-[#FB9AA3]"/><p className="ml-2 ">リストに戻る</p>
         </Link>
@@ -169,7 +169,7 @@ export default async function WorkDetailPage({
             <h2 className="text-2xl font-bold">Design</h2>
             <h3 className="ml-4 mt-1">デザイン</h3>
           </div>
-          <div className="mx-auto w-[90%]">
+          <div className="mx-auto">
             <div className="flex mt-6 items-center">
               <h4 className="text-xl font-bold">Font</h4>
               <h4 className="ml-4">フォント</h4>
@@ -216,7 +216,7 @@ export default async function WorkDetailPage({
             <h4 className="text-xl font-bold">Color</h4>
             <h4 className="ml-4 mt-1">カラー</h4>
           </div>
-          <div className="flex gap-6 my-10">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:flex gap-6 my-10">
             {work.colorSection?.colors.map((color, index) => (
             <div key={index} className="flex flex-col text-center mx-auto">
             <div
