@@ -61,7 +61,7 @@ export default function AboutSubnavResponsive() {
                     transition-transform duration-200
                     ${open ? "translate-y-0" : "translate-y-full"}`}
       >
-        <div className="mx-auto max-w-sm px-5 pt-4 pb-3">
+        <div className="mx-auto max-w-sm px-5 pt-4 pb-3 md:max-w-xl">
           <div className="mx-auto mb-3 h-1.5 w-10 rounded-full bg-black/15" />
           <ul className="grid grid-cols-1 gap-3">
             {items.map((it) => (
