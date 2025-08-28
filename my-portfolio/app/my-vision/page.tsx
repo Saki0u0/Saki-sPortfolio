@@ -1,6 +1,7 @@
 import AboutSubnavResponsive from "@/components/about/profile/AboutSubnavResponsive"
 import Header from "@/components/ui/header"
 import Image from "next/image"
+import { FaExclamation } from "react-icons/fa";
 
 export default function MyVision() {
   return (
@@ -23,16 +24,41 @@ export default function MyVision() {
             className="mx-auto"
             />
           </div>
-          
-          <div className="my-20">
+
+          <div className="mt-20">
             <div className="flex items-center gap-8 w-full md:flex-row flex-col">
-              <div className="bg-white p-8 rounded-full md:w-[16%] w-[58%] md:mr-8 mb-10 md:mb-0">
+              <div className="bg-white p-8 rounded-full w-[120px] h-[120px] md:w-[160px] md:h-[160px]  md:mr-8 mb-10 md:mb-0 flex mx-auto items-center justify-center">
+                <FaExclamation size={32} className="text-[#FB9AA3]"/>
+              </div>
+              <div className="w-[76%] flex-1">
+                <h4 className="text-xl mb-2 text-[#FB9AA3] font-semibold">Turning Point</h4>
+                <h4 className="text-xl mb-4 font-semibold">サポートを形にするデザインへ</h4>
+                <p className="leading-loose mb-6">グランドスタッフとして空港で多くのお客様に寄り添う中で、サポートを“形”にして届けたいと考えるようになりました。その想いからまずWeb開発を学び、仕組みを作る楽しさや技術の可能性を実感しました。
+                同時に、開発を通じて「体験そのものをデザインすることこそ、人を支える力を形にできる」と強く感じ、デザインの道を志すようになりました。</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative h-20 md:h-20 my-6">
+              <span
+                className="
+                  lg:block hidden absolute left-1/2 md:left-[80px] top-0 bottom-0 w-[2px]
+                  -translate-x-1/2 md:translate-x-0
+                  bg-[repeating-linear-gradient(to_bottom,theme(colors.gray.600)_0_10px,transparent_10px_22px)]
+                "
+                aria-hidden
+              />
+            </div>
+          
+          <div className="mb-20">
+            <div className="flex items-center gap-8 w-full md:flex-row flex-col">
+              <div className="bg-white p-8 rounded-full w-[120px] h-[120px] md:w-[160px] md:h-[160px] md:mr-8 mb-10 md:mb-0 flex mx-auto items-center justify-center">
                 <Image
                   src="/about/myvision/now.png"
                   alt="My vision image"
                   width={100}
                   height={100}
-                  className="mx-auto items-center justify-center"
+    
                   />
               </div>
               <div className="w-[76%] flex-1">
@@ -45,7 +71,7 @@ export default function MyVision() {
             <div className="relative h-20 md:h-20 my-8">
               <span
                 className="
-                  lg:block hidden absolute left-1/2 md:left-[90px] top-0 bottom-0 w-[2px]
+                  lg:block hidden absolute left-1/2 md:left-[80px] top-0 bottom-0 w-[2px]
                   -translate-x-1/2 md:translate-x-0
                   bg-[repeating-linear-gradient(to_bottom,theme(colors.gray.600)_0_10px,transparent_10px_22px)]
                 "
@@ -53,17 +79,17 @@ export default function MyVision() {
               />
             </div>
 
-            <div className="flex items-center md:flex-row flex-col">
-              <div className="bg-white p-8 rounded-full md:w-[16%] w-[58%] md:mr-8 mb-10 md:mb-0">
+            <div className="flex gap-8 items-center md:flex-row flex-col">
+              <div className="bg-white p-8 rounded-full w-[120px] h-[120px] md:w-[160px] md:h-[160px] md:mr-8 mb-10 md:mb-0 flex mx-auto items-center justify-center">
                 <Image
                   src="/about/myvision/3years.png"
                   alt="My vision image"
                   width={100}
                   height={100}
-                  className="mx-auto items-center justify-center"
+                  className=""
                   />
               </div>
-              <div className="w-[76%]">
+              <div className="w-[76%] flex-1">
                 <h4 className="text-xl mb-2 text-[#FB9AA3] font-semibold">3 YEARS LATER</h4>
                 <h4 className="text-xl mb-4 font-semibold">共に育ち、共に高め、成果をつなぐデザイナーへ</h4>
                 <p className="leading-loose">後輩の育成や指導を通じて、チーム全体の成長と成果に貢献します。プロジェクトの品質や効率を高める提案を積極的に行い、チームをリードする存在を目指します。</p>
@@ -73,7 +99,7 @@ export default function MyVision() {
             <div className="relative h-20 md:h-20 my-8">
               <span
                 className="
-                  lg:block hidden absolute left-1/2 md:left-[90px] top-0 bottom-0 w-[2px]
+                  lg:block hidden absolute left-1/2 md:left-[80px] top-0 bottom-0 w-[2px]
                   -translate-x-1/2 md:translate-x-0
                   bg-[repeating-linear-gradient(to_bottom,theme(colors.gray.600)_0_10px,transparent_10px_22px)]
                 "
@@ -81,17 +107,17 @@ export default function MyVision() {
               />
             </div>
 
-            <div className="flex items-center md:flex-row flex-col">
-              <div className="bg-white p-8 rounded-full md:w-[16%] w-[58%] md:mr-8 mb-10 md:mb-0">
+            <div className="flex  gap-8  items-center md:flex-row flex-col">
+              <div className="bg-white p-8 rounded-full  w-[120px] h-[120px] md:w-[160px] md:h-[160px]  md:mr-8 mb-10 md:mb-0 flex mx-auto items-center justify-center">
                 <Image
                   src="/about/myvision/5years.png"
                   alt="My vision image"
                   width={100}
                   height={100}
-                  className="mx-auto items-center justify-center"
+                  className="r"
                   />
               </div>
-              <div className="w-[76%]">
+              <div className="w-[76%] flex-1">
                 <h4 className="text-xl mb-2 text-[#FB9AA3] font-semibold">5 YEARS LATER</h4>
                 <h4 className="text-xl mb-4 font-semibold">学びを力に、チームを導く存在に</h4>
                 <p className="leading-loose">5年後は、プロジェクト全体を俯瞰し、チームの方向性を導けるデザインリーダーとして活躍したいと考えています。クライアントやユーザーの課題解決を軸に、戦略的なデザイン提案ができる力を身につけるとともに、メンバーの成長を支えながら成果を最大化できる環境づくりにも取り組みます。</p>
