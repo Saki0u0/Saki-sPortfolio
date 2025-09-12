@@ -20,7 +20,7 @@ const strengths: Strength[] = [
     title: "Teamwork",
     subtitle: "チームワーク力",
     summary:
-      "報・連・相を大切にし、円滑なコミュニケーションでチームの成果を高める力",
+      "円滑なコミュニケーションでチームの成果を高める力",
     detail: (
       <>
         <p>
